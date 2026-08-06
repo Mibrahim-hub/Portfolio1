@@ -36,6 +36,4 @@ jobs:
           path: ./dist
 
       - name: Deploy
-<<<<<<< HEAD
-=======
->>>>>>>
+        uses: actions/deploy-pages@v4
