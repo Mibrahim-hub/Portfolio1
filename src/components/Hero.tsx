@@ -142,7 +142,7 @@ export default function Hero() {
               className="relative aspect-square w-full overflow-hidden rounded-full shadow-2xl"
             >
               <img
-                src="/images/profile.png"
+                src="/Portfolio1/profile.png"
                 alt="Mohamed Ibrahim"
                 className="h-full w-full object-cover object-center"
                 draggable={false}
