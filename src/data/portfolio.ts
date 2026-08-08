@@ -26,7 +26,7 @@ export const profile = {
     '5+ years of experience in IT Support, Windows Server, Active Directory, Office 365, VMware, Azure, Networking, FortiGate Firewall, Cisco, and IT Infrastructure.',
   email: 'IT.Systemadmin91@gmail.com',
   phone: '0538377925',
-  linkedin: 'linkedin.com/in/mohamed-ibrahim-09aab01b2',
+  linkedin: 'https://www.linkedin.com/in/mohamed-ibrahim-09aab01b2/',
   github: 'https://github.com/Mibrahim-hub',
   location: 'Saudi Arabia, Abha',
  cvPath: `${import.meta.env.BASE_URL}Mohamed-Ibrahim-CV.pdf`,
