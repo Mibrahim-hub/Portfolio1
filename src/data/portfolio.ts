@@ -19,19 +19,33 @@ import { FiServer, FiSettings, FiGitBranch, FiTerminal, FiMonitor, FiActivity } 
 
 export const profile = {
   name: 'Mohamed Ibrahim',
-  roles: ['IT Administrator', 'System Administrator', 'IT Support Specialist'],
+
+  roles: [
+    'IT Administrator',
+    'System Administrator',
+    'IT Support Specialist'
+  ],
+
   subtitle:
     'Helping businesses build secure, reliable and scalable IT infrastructure.',
+
   summary:
     '5+ years of experience in IT Support, Windows Server, Active Directory, Office 365, VMware, Azure, Networking, FortiGate Firewall, Cisco, and IT Infrastructure.',
-  email: 'IT.Systemadmin91@gmail.com',
-  phone: '0538377925',
-  linkedin: 'https://www.linkedin.com/in/mohamed-ibrahim-09aab01b2/',
-  github: 'https://github.com/Mibrahim-hub',
-  location: 'Saudi Arabia, Abha',
- cvPath: `${import.meta.env.BASE_URL}Mohamed-Ibrahim-CV.pdf`,
-};
 
+  email: 'IT.Systemadmin91@gmail.com',
+
+  phone: '0538377925',
+
+  linkedin:
+    'https://www.linkedin.com/in/mohamed-ibrahim-09aab01b2/',
+
+  github:
+    'https://github.com/Mibrahim-hub',
+
+  location: 'Saudi Arabia, Abha',
+
+  cvPath: `${import.meta.env.BASE_URL}Mohamed-Ibrahim-CV.pdf`,
+};
 export const stats = [
   { label: 'Years Experience', value: 5, suffix: '+' },
   { label: 'Systems Managed', value: 120, suffix: '+' },
