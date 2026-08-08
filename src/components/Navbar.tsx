@@ -47,20 +47,23 @@ export default function Navbar() {
           scrolled ? 'glass shadow-lg shadow-black/5' : 'border border-transparent'
         }`}
       >
-        {/* Logo */}
-        <button
-          onClick={() => handleNav('#home')}
-          className="group flex items-center gap-2.5"
-          aria-label="Home"
-        >
-          <span className="relative flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-primary-500 to-accent-400 font-display text-sm font-bold text-white shadow-glow-blue">
-            MI
-            <span className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary-500 to-accent-400 opacity-0 blur-md transition-opacity group-hover:opacity-60" />
-          </span>
-          <span className="hidden font-display text-sm font-semibold tracking-tight sm:block">
-            Mohamed<span className="text-gradient"> Ibrahim</span>
-          </span>
-        </button>
+              {/* Logo */}
+              <button
+                  onClick={() => handleNav('#home')}
+                  className="group flex items-center gap-2.5"
+                  aria-label="Home"
+              >
+                  <img
+                      src={`${import.meta.env.BASE_URL}profile.png`}
+                      alt="Mohamed Ibrahim"
+                      className="h-9 w-9 rounded-xl object-cover shadow-glow-blue"
+                      draggable={false}
+                  />
+
+                  <span className="hidden font-display text-sm font-semibold tracking-tight sm:block">
+                      Mohamed<span className="text-gradient"> Ibrahim</span>
+                  </span>
+              </button>
 
         {/* Desktop links */}
         <ul className="hidden items-center gap-1 lg:flex">
