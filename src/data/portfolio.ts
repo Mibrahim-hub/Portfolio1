@@ -32,7 +32,7 @@ export const profile = {
   summary:
     '5+ years of experience in IT Support, Windows Server, Active Directory, Office 365, VMware, Azure, Networking, FortiGate Firewall, Cisco, and IT Infrastructure.',
 
-email: '[IT.Systemadmin91@gmail.com](mailto\:IT.Systemadmin91@gmail.com)',
+email: 'IT.Systemadmin91@gmail.com',
   
   phone: '0538377925',
 
