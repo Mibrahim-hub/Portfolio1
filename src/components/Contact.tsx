@@ -8,7 +8,12 @@ import { fadeInUp } from '@/lib/animations';
 
 const contactCards = [
   { icon: FiPhone, label: 'Phone', value: profile.phone, href: `tel:${profile.phone.replace(/\s/g, '')}` },
-  { icon: FiMail, label: 'Email', value: profile.email, href: `mailto:${profile.email}` },
+  {
+  icon: FiMail,
+  label: 'Email',
+  value: profile.email,
+  href: 'mailto:IT.Systemadmin91@gmail.com',
+},
   { icon: FaLinkedin, label: 'LinkedIn', value: 'Connect on LinkedIn', href: profile.linkedin },
   { icon: FaGithub, label: 'GitHub', value: 'View repositories', href: profile.github },
 ];
