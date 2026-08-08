@@ -61,38 +61,66 @@ export type ExperienceItem = {
 export const experience: ExperienceItem[] = [
   {
     role: 'IT Support',
-    period: '2025 — Present',
-    company: 'Vodafone Egypt',
+    period: 'March 2025 — Present',
+    company: 'Full Screen For Accounting and Warehouse Management Co',
     description:
-      'Providing enterprise-level IT support across a large-scale corporate network. Managing user accounts, resolving escalated incidents, and maintaining endpoint security and compliance standards.',
-    tags: ['Office 365', 'Active Directory', 'Endpoint Security', 'ITIL'],
+      'Deliver effective technical support to end-users, resolving hardware and software issues promptly. Maintain system integrity and security through regular system checks, updates, and backups. Configure and troubleshoot network issues to ensure reliable and secure connectivity. Manage incidents using ITSM tools and escalate critical issues when necessary.',
+    tags: [
+      'IT Support',
+      'Hardware & Software',
+      'Networking',
+      'ITSM',
+      'System Security',
+    ],
   },
+
   {
     role: 'IT Administrator',
     period: '2023 — 2024',
-    company: 'Xceed',
+    company: 'Vodafone Egypt',
     description:
-      'Administered Windows Server environments, Active Directory, Group Policy, and Exchange. Managed virtualization on VMware and supported Office 365 tenants for thousands of users.',
-    tags: ['Windows Server', 'Group Policy', 'VMware', 'Exchange'],
+      'Managed company IT networks, servers, and security systems. Installed and configured hardware and software, managed network servers, designed and installed computer systems including routers, switches, LAN, WAN, and intranet systems, and performed system upgrades, hardware installations, and data backups.',
+    tags: [
+      'IT Administration',
+      'Servers',
+      'Networking',
+      'LAN/WAN',
+      'Security',
+      'Backup',
+    ],
   },
+
   {
     role: 'Technical Support Specialist',
     period: '2021 — 2023',
-    company: 'B-Connect',
+    company: 'Xceed Company',
     description:
-      'Delivered tiered technical support, configured networking equipment, and handled FortiGate firewall policies. Maintained LAN/WAN connectivity and resolved TCP/IP issues across sites.',
-    tags: ['FortiGate', 'LAN/WAN', 'TCP/IP', 'Remote Desktop'],
+      'Configured operating systems and utilized remote desktop connections for immediate support. Diagnosed and resolved software and hardware problems for diverse customer bases. Applied security patches and upgrades to desktops and laptops to maintain system health.',
+    tags: [
+      'Technical Support',
+      'Windows',
+      'Remote Desktop',
+      'Hardware',
+      'Software',
+      'Security Patches',
+    ],
   },
+
   {
-    role: 'Senior Technical Support',
+    role: 'Technical Support (Senior)',
     period: '2019 — 2021',
-    company: '—',
+    company: 'B-Connect For Pharmacies',
     description:
-      'Led frontline troubleshooting for hardware, software, and network issues. Documented resolutions and trained junior technicians on best practices and ITIL-aligned workflows.',
-    tags: ['Troubleshooting', 'DNS', 'DHCP', 'ITIL'],
+      'Identified hardware and software solutions and troubleshot technical issues. Followed up with clients to ensure total problem resolution.',
+    tags: [
+      'Technical Support',
+      'Hardware',
+      'Software',
+      'Troubleshooting',
+      'Customer Support',
+    ],
   },
 ];
-
 export type Skill = {
   name: string;
   icon: IconType;
