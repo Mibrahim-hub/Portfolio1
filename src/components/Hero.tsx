@@ -141,12 +141,12 @@ export default function Hero() {
               transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut' }}
               className="relative aspect-square w-full overflow-hidden rounded-full shadow-2xl"
             >
-              <img
-                src="/Portfolio1/profile.png"
-                alt="Mohamed Ibrahim"
-                className="h-full w-full object-cover object-center"
-                draggable={false}
-              />
+                          <img
+                              src={`${import.meta.env.BASE_URL}profile.png`}
+                              alt="Mohamed Ibrahim"
+                              className="h-full w-full object-cover object-center"
+                              draggable={false}
+                          />
             </motion.div>
           </div>
         </motion.div>
