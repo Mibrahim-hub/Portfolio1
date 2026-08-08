@@ -109,13 +109,14 @@ export default function Navbar() {
             </AnimatePresence>
           </button>
 
-          <a
-            href={profile.cvPath}
-            download
-            className="hidden rounded-lg bg-gradient-to-r from-primary-600 to-accent-500 px-4 py-2 text-sm font-semibold text-white shadow-glow-soft transition-transform hover:scale-[1.03] sm:block"
-          >
-            Download CV
-          </a>
+                  <a
+                      href={profile.cvPath}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hidden rounded-lg bg-gradient-to-r from-primary-600 to-accent-500 px-4 py-2 text-sm font-semibold text-white shadow-glow-soft transition-transform hover:scale-[1.03] sm:block"
+                  >
+                      Download CV
+                  </a>
 
           <button
             onClick={() => setOpen((o) => !o)}
